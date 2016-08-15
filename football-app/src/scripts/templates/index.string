@@ -1,0 +1,28 @@
+<div class="m-container">
+   <div class='m-content'>
+    
+   </div>
+
+   <footer>
+      <ul>
+         <li action-type="switch.tabs" data-tag='home'>
+            <i class="icon iconfont active">&#xe64f;</i>
+         </li>
+         <li action-type="switch.tabs" data-tag='find'>
+            <i class="icon iconfont">&#xe613;</i>
+         </li>
+         <li>
+            <i class="icon iconfont">&#xe68e;</i>
+         </li>
+         <li>
+            <i></i>
+         </li>
+         <li action-type="switch.home" data-tag='my'>
+            <i class="icon iconfont">&#xe69f;</i>
+         </li>
+         <li>
+            <i class="icon iconfont">&#xe696;</i>
+         </li>
+      </ul>
+   </footer>
+</div>

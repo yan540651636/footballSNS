@@ -1,0 +1,83 @@
+<div class='detail'>
+	<header>
+		<li action-type="goto.index">返回</li>
+		<li ms-text='title'>666</li>
+		<li action-type="goto.list">列表</li>
+ 	</header> 
+
+ 	<section class='detail-main' spa-widget="scroll">
+ 		<section ms-visible="!showLoading" >
+            <div>
+              <ul>
+                <li>
+                  <img src="/football-app/img/Pikachu.jpg" />
+                </li>
+                <li class="zan">
+                  <h2>我是小萌</h2>
+                  <p>我是小萌我怕谁，哈哈哈哈哈！</p>
+                  <ul>
+                    <li ms-html="zan[0]"></li>
+                    <li class="yo-ico" ms-attr-data-index="0" action-type="tap.dianzan">赞</li>
+                  </ul>
+                </li>
+              </ul>
+              <img src="/football-app/img/img1.jpg">
+              <p>小丸子呀小丸子</p>
+            </div>
+            <div>
+              <ul id="dockMenu">
+                <li>
+                  <img src="/football-app/img/Pikachu.jpg" />
+                </li>
+                <li class="zan">
+                  <h2>停靠菜单</h2>
+                  <p>上拉滑动到此菜单位置停靠</p>
+                  <ul>
+                    <li ms-html="zan[1]"></li>
+                    <li class="yo-ico" ms-attr-data-index="1" action-type="tap.dianzan">&#xe609;</li>
+                  </ul>
+                </li>
+              </ul>
+              <img src="/football-app/img/img1.jpg">
+              <p>小丸子呀小丸子</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <img src="/football-app/img/Pikachu.jpg" />
+                </li>
+                <li class="zan">
+                  <h2>我是小萌</h2>
+                  <p>我是小萌我怕谁，哈哈哈哈哈！</p>
+                  <ul>
+                    <li ms-html="zan[2]"></li>
+                    <li class="yo-ico" ms-attr-data-index="2" action-type="tap.dianzan">&#xe609;</li>
+                  </ul>
+                </li>
+              </ul>
+              <img src="/football-app/img/img1.jpg">
+              <p>小丸子呀小丸子</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <img src="/football-app/img/Pikachu.jpg" />
+                </li>
+                <li class="zan">
+                  <h2>我是小萌</h2>
+                  <p>我是小萌我怕谁，哈哈哈哈哈！</p>
+                  <ul>
+                    <li ms-html="zan[3]"></li>
+                    <li class="yo-ico" ms-attr-data-index="3" action-type="tap.dianzan">&#xe609;</li>
+                  </ul>
+                </li>
+              </ul>
+              <img src="/football-app/img/img1.jpg">
+              <p>小丸子呀小丸子</p>
+            </div>
+          </section>
+ 		<div class="yo-loading" ms-visible="showLoading"> 
+ 			<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div> 
+ 		</div>
+ 	</section> 	
+</div>

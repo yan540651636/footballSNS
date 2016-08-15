@@ -1,0 +1,10 @@
+@import "../../lib/widget/yo-dialog";
+
+@charset "UTF-8";
+
+
+@include yo-dialog(
+  $name: a,
+  $height: 2rem,
+  $title-color: #0dc441
+)
