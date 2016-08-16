@@ -11,7 +11,7 @@ require("./js/register")
 require("./js/login");
 
 SPA.config({
-	indexView:"home"
+	indexView:"index"
 })
 
-
+console.log('merge')
