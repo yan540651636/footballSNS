@@ -17,3 +17,5 @@ SPA.config({
 console.log('merge');
 
 console.log('rest1');
+
+console.log('rest2');
