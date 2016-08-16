@@ -14,4 +14,6 @@ SPA.config({
 	indexView:"index"
 })
 
-console.log('merge')
+console.log('merge');
+
+console.log('rest1');
